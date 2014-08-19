@@ -1,0 +1,20 @@
+webpages notes
+
+
+Fix the old/frozen websites
+----------
+-Now
+http://now.cs.berkeley.edu/
+
+-Millennium
+http://web.archive.org/web/20031206222730/http://www.millennium.berkeley.edu/ 
+
+Manage/create the new ones 
+----------
+-Local
+local.cs.berkeley.edu
+
+-SDB
+sdb.cs.berkeley.edu
+	* make a subpage for Storm, but also create it's own mini site because it's a larger project. looks similar, but not the same
+	* make an internal page for instruction or only people in the group can access after they have logged in

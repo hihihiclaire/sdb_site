@@ -1,0 +1,82 @@
+links_to_publications
+
+SDB
+-Enabling Advanced Environmental Conditioning with a Building Application Stack.	
+	http://www.cs.berkeley.edu/~culler/papers/TKDHCapps13.pdf
+
+-BOSS: Building Operating System Services
+	https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final88.pdf
+
+-Strip, Bind, and Search: A Method for Identifying Abnormal Energy Consumption in Buildings
+	http://www.cs.berkeley.edu/~jortiz/papers/p129-fontugne.pdf
+
+-Building Application Stack (BAS)
+	http://www.cs.berkeley.edu/~krioukov/BAS.pdf
+
+-Towards Real-time, Fine-grained Energy Analytics in Buildings Through Mobile Phones
+	files/publications/sdb/towards_real_time.pdf
+
+-Live, Continuous Energy Auditing of Miscellaneous Electrical Loads: Methodology and Results
+	http://www.aceee.org/files/proceedings/2012/data/papers/0193-000376.pdf
+
+-Empirical Mode Decomposition for Intrinsic-Relationship Extraction in Large Sensor Deployments
+	http://www.eecs.berkeley.edu/~jortiz/papers/011_empirical.pdf
+
+
+LoCal
+-Energy-efficient Building HVAC Control Using Hybrid System LBMPC.
+	http://arxiv.org/abs/1204.4717
+
+-Identifying Models of HVAC Systems Using Semi-parametric Regression
+	http://www.cs.berkeley.edu/~vsmith/docs/brite_acc_2012.pdf
+
+-The Need for Speed and Stability for Data Center Power Capping
+	http://research.microsoft.com/pubs/164427/IGCC2012.pdf
+
+-Defining CPS Challenges in a Sustainable Electricity Grid
+	http://www.cs.berkeley.edu/~culler/papers/TKCCPS12.pdf
+
+-GUPT: Privacy Preserving Data Mining Made Easy
+	http://www.cs.berkeley.edu/~prmohan/papers/gupt.pdf
+
+-@scale: Insights from a Large, Long-Lived Appliance Energy WSN
+	http://www.eecs.berkeley.edu/~stevedh/pubs/ipsn12atscale.pdf
+
+-Industry: Beyond Interoperability - Pushing the Performance of Sensor Network IP Stacks
+	files/publications/local/industry_beyond_interoperability.pdf
+
+-A Living Laboratory Study in Personalized Automated Lighting Controls
+	http://www.eecs.berkeley.edu/~stevedh/pubs/buildsys11krioukov.pdf
+
+-Integrating Renewable Energy Using Data Analytics Systems: Challenges and Opportunities
+	http://www.cs.berkeley.edu/~krioukov/integratingRenewableEnergy.pdf
+
+-An information-centric energy infrastructure: The Berkeley view
+	http://www.eecs.berkeley.edu/~alspaugh/papers/local_journal_suscomp_2011.pdf
+
+-sMAP - a Simple Measurement and Actuation Profile for Physical Information
+	http://www.cs.berkeley.edu/~stevedh/pubs/sensys10smap.pdf
+
+-HBCI: Human-Building-Computer Interaction
+	http://www.cs.berkeley.edu/~jortiz/papers/hbci.pdf
+
+-Towards Cooperative Grids: Sensor/Actuator Networks for Promoting Renewables
+	http://www.eecs.umich.edu/~prabal/pubs/papers/taneja10slack.pdf
+
+-Hydro: A Hybrid Routing Protocol for Low-Power and Lossy Networks
+	http://www.cs.berkeley.edu/~stevedh/pubs/smartgrid10hydro.pdf
+
+-Enabling Green Building Applications
+	http://www.cs.berkeley.edu/~stevedh/pubs/hotemnets10haggerty.pdf
+
+-NapSAC: Design and Implementation of a Power-Proportional Web Cluster
+	http://www.cs.berkeley.edu/~krioukov/NapSAC.pdf
+
+-Power Optimization: a Reality Check
+	http://www.cs.berkeley.edu/~krioukov/realityCheck.pdf
+
+-Design and Implementation of a High-Fidelity AC Metering Network
+	http://www.cs.berkeley.edu/~prabal/pubs/papers/jiang09acme.pdf
+
+-An Architecture for Local Energy Generation, Distribution, and Sharing
+	http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4781028

@@ -1,0 +1,433 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Publications | SDB</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="shortcut icon" href="http://sdb.cs.berkeley.edu/sdb/sites/all/themes/corporateclean/favicon.ico" type="image/vnd.microsoft.icon" />
+
+    <script src="js/vendor/modernizr.js"></script>
+  </head>
+
+  <body>
+
+<!-- Top-Panel -->
+  <div class="top-panel">
+    <!-- change the color of the background to black instead of the default white 
+         if use the same color as the navigation bar, how to make a line between them-> set the border-bottom-style to be solid, and the change the width and color of the border. -->
+    <div style="background-color:#1F1F1F; color:#FFFFFF; text-align:center; padding-top:2rem; padding-bottom:2rem;">
+      <!-- SDB image, click and goes to home(sdb) -->
+      <a href="http://sdb.cs.berkeley.edu" > 
+        <img src="files/sdb_logo.png" height="123" width="216">  </a>
+      <!-- <img src="http://sdb.cs.berkeley.edu/sdb/sites/default/files/logo%20vector_2.png" height="123" width="216"> -->
+      <div class="top-panel-text">
+        SDB - Software Defined Buildings, UC Berkeley 
+      </div>
+    </div>
+  </div>
+<!-- End of Top-Panel -->
+
+<!--Navigation Bar -->
+  <div class="contain-to-grid sticky" data-options="sticky_on: large">
+   <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+
+      <!-- Title Area -->
+      <li class="name">
+        <h1>
+          <a href="http://sdb.cs.berkeley.edu">Home</a>
+        </h1>
+      </li>
+    </ul>
+ 
+    <section class="top-bar-section">
+      <!-- Left Nav Section -->
+      <ul class="left">
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Projects</a>
+          <ul class="dropdown">     <!-- should change the links to the project sites  -Claire 7/16  -->
+            <li><a href="/sdb/?q=node/41">Automatic Building Metadata</a></li>
+            <li><a href="/sdb/?q=node/39">BAS: Building Application Stack</a></li>
+            <li><a href="/sdb/?q=node/45">BLOM: Berkely Library for Optimization Modeling</a></li>
+            <li><a href="/sdb/?q=node/38">BOSS: Building Operating System Services</a></li>
+            <li><a href="/sdb/?q=node/44">Building Applications</a></li>
+            <li><a href="/sdb/?q=node/42">Empirically-driven Verification</a></li>
+            <li><a href="/sdb/?q=node/40">Localization</a></li>
+            <li><a href="/sdb/?q=node/43">Model Predictive Control</a></li>
+          </ul>
+        </li>
+        <li class="divider"></li>  <!-- need to create new files for each of the individual catagory -Claire 7/16 -->
+        <li><a href="sdb/?q=content/events">Events</a></li>
+        <li class="divider"></li>
+        <li><a href="/sdb/?q=content/resources">Resources</a></li>
+        <li class="divider"></li>
+        <li><a href="/sdb/?q=content/people">People</a></li>
+        <li class="divider"></li>
+        <li><a href="/sdb/?q=content/publications">Publications</a></li>
+
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Quick Links</a>
+          <ul class="dropdown">
+            <li><a href="http://www.mpc.berkeley.edu/">Model Predictive Control Lab</a></li>
+            <li><a href="http://sdb.cs.berkeley.edu/wiki">SDB Wiki</a></li>
+            <li><a href="http://new.openbms.org/plot/">sMAP</a></li>
+            <li><a href="http://local.cs.berkeley.edu/dsite/">LoCal</a></li>
+            <li><a href="http://www.cs.berkeley.edu/">Computer Science</a></li>
+            <li><a href="http://www.berkeley.edu/">UC Berkeley</a></li>
+          </ul>
+        </li>
+
+        <li class="divider"></li>
+        <li class="has-dropdown">
+          <a href="#">Partners</a>
+          <ul class="dropdown">
+            <li><a href="http://aws.amazon.com/">Amazon Web Services</a></li>
+            <li><a href="http://uc-ciee.org/">California Institue for Energy and Environment</a></li>
+            <li><a href="http://citris-uc.org/">CITRIS</a></li>
+            <li><a href="http://www.energy.ca.gov/">California Energy Commission</a></li>
+            <li><a href="http://i4energy.org/">i<sup>4</sup>Energy</a></li>
+            <li><a href="http://www.intel.com/content/www/us/en/homepage.html">Intel</a></li>
+            <li><a href="http://www.keti.re.kr/e-keti/">KETI</a></li>
+            <li><a href="http://www.lbl.gov/">Lawrence Berkeley National Laboratory</a></li>
+            <li><a href="http://www.nsf.gov/">National Science Foundation</a></li>
+            <li><a href="http://www.samsung.com/us/">Samsung</a></li>
+            <li><a href="http://www.siemens.com/entry/cc/en/">Siemens</a></li>
+            <li><a href="http://www.energy.gov/">Energy.Gov</a></li>
+          </ul>
+        </li>
+      </section>
+      <!-- Right Nav Section -->
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="divider"></li>
+          <li><a href="?q=user">Login</a></li>
+          <li class="divider"></li>
+          <li><a href="/sdb/?q=search/node">Search</a></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <!-- End Nav Section -->
+
+  <div class="panel" style="background-color:#ECECEC; margin-bottom:-2em">
+
+    <div class="row">
+      <div class="large-12 columns" style="padding-top:1rem;">
+        <h2 style="text-align:justify;"><b>Publications</b></h2>
+      </div>
+    </div>
+    
+
+    <!-- SDB publications -->
+    <div class="row">
+      <div class="large-12 columns" >
+        <a href="http://sdb.cs.berkeley.edu"><h3 style="text-align:justify;"> <u> SDB </u> </h3>
+      </div>
+    
+      <div class="large-8 columns">
+        <ul style="font-size:13px">
+          <li>
+            <a href="files/publications/sdb/enabling_advanced.pdf">Enabling Advanced Environmental Conditioning with a Building Application Stack.</a><br>
+            <p style="font-size:13px"> 
+              Jay Taneja, Andrew Krioukov, Stephen Dawson-Haggerty, and David Culler<br>
+              Proceedings of the 4th International Green Computing Conference (IGCC '13), June 2013.</p>
+          </li>
+
+          <li>
+            <a href="files/publications/sdb/boss.pdf">BOSS: Building Operating System Services</a><br>
+            <p style="font-size:13px">
+              Stephen Dawson-Haggerty, Andrew Krioukov, Jay Taneja, Sagar Karandikar, Gabe Fierro, Nikita Kitaev, and David Culler.<br>
+              Proceedings of the 10th USENIX Symposium on Networked Systems Design and Implementation (NSDI '13), April 2013. 
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/sdb/strip_bind_and_search.pdf">Strip, Bind, and Search: A Method for Identifying Abnormal Energy Consumption in Buildings</a><br>
+            <p style="font-size:13px">
+              Romain Fontugne, Jorge Ortiz, Nicolas Tremblay, Pierre Borgnat, Patrick Flandrin, Kensuke Fukuda,<br>
+              David E. Culler, Hiroshi Esaki.12th ACM/IEEE Conference on Information Processing in Sensor Networks (IPSN 2013).<br>
+              Philadelphia, PA, USA. April, 2013.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/sdb/bas.pdf"> Building Application Stack (BAS).</a><br>
+            <p style="font-size:13px">
+              Andrew Krioukov, Gabe Fierro, Nikita Kitaev, David Culler. 4th ACM Workshop On Embedded Sensing Systems For Energy-Efficiency In Buildings, Toronto, Canada, Nov 2012. (Best Paper)
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/sdb/towards_real_time.pdf">Towards Real-time, Fine-grained Energy Analytics in Buildings Through Mobile Phones.</a><br>
+            <p style="font-size:13px">
+              Jorge Ortiz, Yongwoo Noh, Gavin Saldanha, David Su, David E. Culler.<br>  
+              4th ACM Workshop on Embedded Systems for Energy-Efficient Buildings (Buildsys 2012).<br>
+              Toronto, Ontario, Canada. pp. 42-44, November, 2012.
+            </p>
+          </li>
+      
+          <li>
+            <a href="files/publications/sdb/live_continuous_energy_auditing.pdf">Live, Continuous Energy Auditing of Miscellaneous Electrical Loads: Methodology and Results. </a><br>
+            <p style="font-size:13px">
+              Jorge Ortiz, Jason Trager, Gavin Saldanha, David E. Culler, Paul K. Wright.<br>
+              ACEEE Summer Study on Energy Efficient Buildings, Aug. 2012.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/sdb/empirical_mode_decomposition.pdf">Empirical Mode Decomposition for Intrinsic-Relationship Extraction in Large Sensor Deployments.</a><br>
+            <p style="font-size:13px">
+              Romain Fontugne, Jorge Ortiz, David Culler, Hiroshi Esaki.<br>
+              First International Workshop on the Internet of Things applications. Beijing, China. April 2012.
+            </p>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <!-- Local publications -->
+    <div class="row">
+      <div class="large-12 columns" >
+        <a href="http://local.cs.berkeley.edu/dsite/"><h3 style="text-align:justify;"> <u> LoCal </u> </h3>
+      </div>
+    
+      <div class="large-8 columns">
+        <ul style="font-size:13px">
+          <li>
+            <a href="files/publications/local/energy-efficient.pdf">Energy-Efficient Building HVAC Control Using Hybrid System LBMPC.</a><br>
+            <p style="font-size:13px">
+              Anil Aswani, Neal Master, Jay Taneja, Andrew Krioukov, David Culler, and Claire Tomlin.<br>
+              IFAC Conference on Nonlinear Model Predictive Control, August 2012.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/identifying_models_of_HVAC.pdf">Identifying Models of HVAC Systems Using Semi-parametric Regression.</a><br>
+            <p style="font-size:13px">
+              Anil Aswani, Neal Master, Jay Taneja, Virginia Smith, Andrew Krioukov, David Culler, and Claire Tomlin.<br>
+              Proceedings of the American Control Conference, June 2012.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/the_need_for_speed.pdf">The Need for Speed and Stability for Data Center Power Capping.</a><br>
+            <p style="font-size:13px">
+              Arka Bhattacharya, Aman Kansal, David Culler, Sriram Sankar, and Sriram Govindan.<br>
+              IGCC, June 2012.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/defining_CPS_challenges.pdf">Defining CPS Challenges in a Sustainable Electricity Grid.</a><br>
+            <p style="font-size:13px">
+              Jay Taneja, Randy Katz, and David Culler.<br>
+              Proceedings of the ACM/IEEE Third International Conference on Cyber-Physical Systems, April, 2012.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/gupt.pdf">GUPT: Privacy Preserving Data Mining Made Easy.</a><br>
+            <p style="font-size:13px">
+              P. Mohan, A. Thakutra, E. Shi, D. Song, and D. E. Culler. SIGMOD, May 2012.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/@scale_insights.pdf">@scale: Insights from a Large, Long-Lived Appliance Energy WSN.</a><br>
+            <p style="font-size:13px">
+              Stephen Dawson-Haggerty, Steven Lanzisera, Jay Taneja, Richard Brown, and David Culler.<br>
+              To appear in Proceedings of the 11th ACM/IEEE Conference on Information Processing in Sensor Networks, SPOTS Track (IPSN/SPOTS '12), April 2012.
+            </p>
+          </li>
+
+
+          <li>
+            <a href="files/publications/local/industry_beyond_interoperability.pdf">Industry: Beyond Interoperability - Pushing the Performance of Sensor Network IP Stacks.</a><br>
+            <p style="font-size:13px">
+              JeongGil Ko, Joakim Eriksson, Nicolas Tsiftes, Stephen Dawson-Haggerty, Jean-Philippe Vasseur, Mathilde Durvy, Andreas Terzis, Adam Dunkels, and David Culler.<br>
+              Proceedings of the 9th ACM Conference on Embedded Networked Sensor Systems, Industry Track (SenSys '11), November 2011.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/a_living_laboratory_study.pdf">A Living Laboratory Study in Personalized Automated Lighting Controls.</a><br>
+            <p style="font-size:13px">
+              Andrew Krioukov, Stephen Dawson-Haggerty, Linda Lee, and David Culler.<br>
+              BuildSys: 3rd ACM Workshop On Embedded Sensing Systems For Energy-Efficiency In Buildings, Seattle WA. 2011.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/integrating_renewable_energy.pdf">Integrating Renewable Energy Using Data Analytics Systems: Challenges and Opportunities.</a><br>
+            <p style="font-size:13px">
+              Andrew Krioukov, Christoph Goebel, Sara Alspaugh, Yanpei Chen, David Culler, Randy Katz.<br>
+              Bulletin of the IEEE Computer Society Technical Committee on Data Engineering, March 2011.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/an_information-centric_energy_infrastructure.pdf">An information-centric energy infrastructure: The Berkeley view.</a><br>
+            <p style="font-size:13px">
+              Randy H. Katz, David E. Culler, Seth Sanders, Sara Alspaugh, Yanpei Chen, Stephen Dawson-Haggerty, Prabal Dutta, Mike He, Xiaofan Jiang, Laura Keys, Andrew Krioukov, Ken Lutz, Jorge Ortiz, Prashanth Mohan, Evan Reutzel, Jay Taneja, Jeff Hsu and Sushant Shankar.<br>
+              Sustainable Computing: Informatics and Systems, vol. 1, no. 1, pp. 7-22, March, 2011.
+            </p>
+          </li>
+          
+
+          <li>
+            <a href="files/publications/local/sMAP.pdf">sMAP - a Simple Measurement and Actuation Profile for Physical Information.</a>
+            <a href="files/publications/local/sMAP_slides.pptx"> --Slides</a><br>
+            <p style="font-size:13px">
+              Stephen Dawson-Haggerty, Xiaofan Jiang, Gilman Tolle, Jorge Ortiz, and David Culler.<br>
+              Proceedings of the Eighth ACM Conference on Embedded Networked Sensor Systems (SenSys '10), November 2010.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/hbci.pdf">HBCI: Human-Building-Computer Interaction.</a><br>
+            <p style="font-size:13px">
+              Jeff Hsu, Prashanth Mohan, Xiaofan Jiang, Jorge J Ortiz, Sushant Shankar, Stephen Dawson-Haggerty, and David Culler.<br>
+              2nd ACM Workshop On Embedded Sensing Systems For Energy-Efficiency In Buildings (BuildSys 2010), November 2010.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/towards_cooperative_grids.pdf">Towards Cooperative Grids: Sensor/Actuator Networks for Promoting Renewables.</a><br>
+            <p style="font-size:13px">
+              Jay Taneja, Prabal Dutta, and David Culler.<br>
+              Proceedings of the First IEEE Internationl Conference on Smart Grid Communications (SmartGridComm '10), October 2010.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/hydro_a_hybrid_routing_protocal.pdf">Hydro: A Hybrid Routing Protocol for Low-Power and Lossy Networks.</a> 
+            <a href="files/publications/local/hydro_slides.pptx"> --Slides</a><br>
+            <p style="font-size:13px">
+              Stephen Dawson-Haggerty, Arsalan Tavakoli, and David Culler.<br>
+              Proceedings of the First IEEE Internationl Conference on Smart Grid Communications (SmartGridComm '10), October 2010.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/enabling_green_building_applications.pdf">Enabling Green Building Applications.</a><br>
+            <p style="font-size:13px">
+              Stephen Dawson-Haggerty, Jorge Ortiz, Xiaofan Jiang, Jeff Hsu, Sushant Shankar, and David Culler.<br>
+              Workshop on Hot Topics in Embedded Networked Sensors (HotEmNets), June 2010.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/napSAC.pdf">NapSAC: Design and Implementation of a Power-Proportional Web Cluster.</a><br >
+            <p style="font-size:13px">
+              Andrew Krioukov, Prashanth Mohan, Sara Alspaugh, Laura Keys, David Culler, Randy Katz.<br>
+              Proceedings of the First ACM SIGCOMM Workshop on Green Networking, New Delhi, India, Aug 2010.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/power_optimization.pdf">Power Optimization: a Reality Check.</a><br>
+            <p style="font-size:13px">
+              Stephen Dawson-Haggerty, Andrew Krioukov, David Culler.<br>
+              EECS Department, University of California, Berkeley, Tech. Rep. UCB/EECS-2009-140, Oct. 2009.
+            </p>
+          </li>
+          
+          <li>
+            <a href="files/publications/local/design_and_implementation.pdf">Design and Implementation of a High-Fidelity AC Metering Network.</a><br>
+            <p style="font-size:13px">
+              Xiaofan Jiang, Stephen Dawson-Haggerty, Prabal Dutta, and David Culler.<br>
+              The 8th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN'09) Track on Sensor Platforms, Tools, and Design Methods (SPOTS '09), Apr. 2009.
+            </p>
+          </li>
+
+          <li>
+            <a href="files/publications/local/an_architecture.pdf">An Architecture for Local Energy Generation, Distribution, and Sharing.</a><br>
+            <p style="font-size:13px">
+              Mike M. He, Evan M. Reutzel, Xiaofan Jiang, Randy H. Katz, Seth R. Sanders, David E. Culler, Ken Lutz.<br>
+              IEEE Energy2030 Conference Proceedings, Nov 17-18, 2008.
+            </p>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+<!-- bottom panel -->
+
+  <div style="background-color:#CCCCCC;padding-top:1rem">
+    <div class="row" >
+    
+      <h3>
+        <b>Partners</b>
+      </h3>
+      <ul class="small-block-grid-13">
+        <li><a href="http://aws.amazon.com"><img src="files/partners/amazon.gif" border="0" width="50" /></a></li>
+        <li><a href="http://uc-ciee.org/"><img src="files/partners/ciee.jpg" border="0" width="50" /></a></li>
+        <li><a href="http://citris-uc.org"><img src="files/partners/citris.png" border="0" width="50" /></a></li>
+        <li><a href="http://www.energy.ca.gov"><img src="files/partners/CSEC.gif" border="0" width="50" /></a></li>
+        <li><a href="http://i4energy.org"><img src="files/partners/i4E.png" border="0" width="50" /></a></li>
+        <li><a href="http://www.intel.com"><img src="files/partners/intel.gif" border="0" width="75" /></a></li>
+        <li><a href="http://www.keti.re.kr/e-keti/"><img src="files/partners/keti.gif" border="0" width="50" /></a></li>
+        <li><a href="http://www.lbl.gov"><img src="files/partners/LBL.gif" border="0" width="50" /></a></li>
+        <li><a href="http://www.nsf.gov"><img src="files/partners/NSF.gif" border="0" width="50" /></a></li>
+        <li><a href="http://www.samsung.com"><img src="files/partners/samsung.gif" border="0" width="50" /></a></li>
+        <li><a href="http://www.siemens.com"><img src="files/partners/siemens.gif" border="0" width="50" /></a></li>
+        <li><a href="http://www.doe.gov"><img src="files/partners/USDoE.gif" border="0" width="50" /></a></li>
+      </div>
+    </div>
+  </div>
+
+  <div class="bott-panel">
+    <div style="background-color:#2B2B2B;padding-top:1rem">
+      <dic class="bott-panel-text">
+        <div class="row">
+          <div class="large-11 columns">
+            <p style="color:white; font-size:13px">This material is based upon work supported by the National Science Foundation under grants CPS-1239552, and the NSF Graduate Research Fellowship Program. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.
+            </p>
+          </div>
+
+          <div class="large-1 columns">
+            <img src="files/partners/NSF.gif" align="right">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+  
+  </body>
+</html>

@@ -1,0 +1,72 @@
+Changes:
+*Front page
+    -change the background of the top panel and link the image to the sdb page (how to change the color of the panel)
+    -change the home button and link it to the sdb page
+    -adding in the descriptions for the sliders(same descriptions as the current page)
+    -add buttons for the slider
+    -updated the github link
+    -temporary use the wiki page as the sdb documentation(double check if this is it)
+    -made the video able to play on the page(when copying the emb code for the sharing link, remember to add http/https in from the of the URL)
+    -change the background color of the partner area
+    -change the background, and the font size and color for the NSF area
+
+
+*Resources page
+    -add the two files to the page
+    -how to make all the subpages has similar size?
+
+
+*Events page
+    -have linked the pages like the sdb page, might have to update manually everytime
+
+
+*Project page (link the sdb project page to each project)
+    -created the sdb project page, and linked the local sites. 
+    -need to create the individual project pages
+        
+        *Automatic Building Metadata
+            -added the description for the project
+
+        *BAS: Building Application Stack
+            -added the description for the project
+
+        *BLOM: Berkely Library for Optimization Modeling
+            -This says TBA
+
+        *BOSS: Building Operating System Services
+            -added the description for the project
+
+        *Building Applications
+            -This says TBA
+
+        *Empirically-driven Verification
+            -There's one pdf says under submission, update?
+
+        *Lcalization
+            -added the description for the project
+
+        *Model Predictive Control
+            -This says TBA
+
+
+*publications page
+    -Downloaded all the related files to have hard copies
+    -- these are all linked to local, so make sure to change the directory
+
+
+*People page
+    -downloaded images to the local folder
+    -should change the background so the image doesn't look weird
+
+
+*Login page
+    -LDAP server
+    -- use php?
+
+*Search page
+
+
+
+
+--make sure all the pages are link to each other--
+(maybe change the color of the background because white looks plain also the eyes would hurt after awhile, try #CCCCCC -> put all the content in a panel or something   <div class="panel" style="background-color:#ECECEC; margin-bottom:-2em"> )
