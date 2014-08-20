@@ -1217,6 +1217,8 @@ button, .button {
         color: white; }
       button.disabled.alert:hover, button.disabled.alert:focus, button[disabled].alert:hover, button[disabled].alert:focus, .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
         background-color: #f04124; }
+        
+
 
 @media only screen and (min-width: 40.063em) {
   button, .button {
@@ -5470,3 +5472,44 @@ th.hide-for-touch {
 
   th.show-for-print {
     display: table-cell !important; } }
+    
+/* For Google Search Layout */
+.gsc-control-cse  * {
+ -moz-box-sizing: content-box !important;
+ -webkit-box-sizing: content-box !importantx;
+ box-sizing:  content-box !important;
+}
+
+.gsc-control-cse input {
+ box-shadow: none !important;
+}
+
+.gsc-control-cse input:focus {
+    outline: none;
+}
+
+.gsc-control-cse table {
+ border: none;
+ background: transparent;
+}
+
+.gsc-input-box, .gsc-search-box .gsc-input>input, .gsc-input-box-hover {
+ -moz-box-shadow: none !important;
+ -webkit-box-shadow: none !important;
+ box-shadow: none !important;
+}
+
+.your-button-class {
+  -moz-box-sizing:content-box;
+  -webkit-box-sizing:content-box;
+  box-sizing:content-box;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+input.gsc-search-button, input.gsc-search-button:hover, input.gsc-search-button:focus {
+background-image: inherit;
+box-sizing: content-box;
+}
